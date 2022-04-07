@@ -7,9 +7,34 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="버튼1"/>
+        android:textSize="30dp"
+        android:text="textSize속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#425548"
+        android:text="textColor속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:text="textStyle속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:text="typeface속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:singleLine="true"
+        android:text="singLine속성 singLine속성 singLine속성 singLine속성 singLine속성 singLine속성"/>
 
 </LinearLayout>
